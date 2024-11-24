@@ -1,0 +1,34 @@
+/* css file */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f7fc;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #f9c74f !important;
+}
+header {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+}
+
+.calculator {
+  background-color: #ffffff;
+  border: 2px solid #e3e6ea;
+}
+
+select,
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background: linear-gradient(to right, #4a00e0, #8e2de2);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}

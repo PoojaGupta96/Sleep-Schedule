@@ -1,0 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #f9c74f !important;
+}
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://source.unsplash.com/1920x1080/?sleep,relax") center/cover
+      no-repeat;
+  color: white;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-calculate {
+  background-color: #f9c74f;
+  border: none;
+  color: black;
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-calculate:hover {
+  background-color: #f9844a;
+  color: white;
+  transform: scale(1.05);
+}
+
+footer {
+  background: linear-gradient(to right, #3f3d42, #161617);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
